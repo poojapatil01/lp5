@@ -1,0 +1,21 @@
+g++ filename.cpp -o filename
+
+
+
+Linux/Ubuntu:
+./filename
+
+
+
+Windows:
+.\filename
+
+
+
+
+run mpi program:
+gcc -f openmp filename.cpp -o filename
+
+
+run cuda:
+nvcc filename.cpp -o filename
